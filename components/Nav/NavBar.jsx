@@ -9,7 +9,6 @@ const NavBar = ({title}) => {
     // test user
     const loginUser = {
         UserName: 'TEST User',
-        Role: 'Co teacher',
         UserID: '001'
       }
 
@@ -43,7 +42,7 @@ const NavBar = ({title}) => {
                 </Flex>
 
             </Box>
-            hello
+            
         </Box>
     );
 };

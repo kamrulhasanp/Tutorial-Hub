@@ -8,7 +8,7 @@ import { IoMdLogOut } from 'react-icons/io'
 
 const UserMenu = ({currentUser}) => {
     if(!currentUser) {
-        currentUser = {UserName: "Test User", Role: "Test Role", UserId: "Test_ID"}
+        currentUser = {UserName: "Test User", UserId: "Test_ID"}
     }
 
     const handleLogout = async () => {
@@ -22,9 +22,6 @@ const UserMenu = ({currentUser}) => {
             {/* User Info */}
             <Text fontSize={16} fontWeight={600}>
                 {currentUser.UserName}
-            </Text>
-            <Text fontSize={14} fontWeight={400} color='text.Secondary'>
-                {currentUser.Role}
             </Text>
             {/* User Dropdown Menu: Profile Logout */}
             <Menu>

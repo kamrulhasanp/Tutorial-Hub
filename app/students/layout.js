@@ -10,7 +10,11 @@ export default function MainBodyLayout({children}) {
     <div className='h-screen overflow-auto'>
         <div className="">
             <NavBar />
+            
         </div>
+        <main className='mt-5'>
+        {children}
+        </main>
       
     </div>
   )
