@@ -1,5 +1,6 @@
 
 import Slider from '@/components/Slider'
+import VideoSection from '@/components/Students/VideoSection';
 import { Box, Text } from '@chakra-ui/react'
 const images = [
   '/images/slider/slider1.png', 
@@ -10,11 +11,13 @@ const images = [
 ];
 
 
+
 export default function page() {
   return (
     <Box>
       <Slider images={images} />
       <Text pt={5}>NExt Slide</Text>
+      <VideoSection />
       
     </Box>
   )
