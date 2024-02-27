@@ -1,5 +1,6 @@
 'use client'
 
+import Footer from '@/components/Footer/Footer'
 import '../globals.css'
 import NavBar from '@/components/Nav/NavBar'
 
@@ -15,6 +16,9 @@ export default function MainBodyLayout({children}) {
         <main className='mt-5'>
         {children}
         </main>
+        <div>
+          <Footer />
+        </div>
       
     </div>
   )
